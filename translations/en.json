@@ -1,0 +1,406 @@
+{
+  "meta": {
+    "title": "Zaytoon | Tapas Bar",
+    "description": "Zaytoon — middle eastern tapas & good vibes. Wawrzyniaka 20, Poznań."
+  },
+  "a11y": {
+    "skipLink": "Skip to content",
+    "logoHome": "Zaytoon home",
+    "navPrimary": "Primary",
+    "navMobileLabel": "Menu",
+    "highlights": "Highlights",
+    "visitSection": "Visit us",
+    "galleryRegion": "Zaytoon gallery",
+    "galleryPhotos": "Photos",
+    "foodGalleryScroller": "Scrollable food gallery",
+    "galleryDots": "Photo indicators",
+    "langSwitch": "Language"
+  },
+  "nav": {
+    "menu": "Menu",
+    "tapas": "Tapas",
+    "drinks": "Drinks",
+    "gallery": "Gallery",
+    "about": "About",
+    "testimonials": "Reviews",
+    "location": "Location",
+    "contact": "Contact",
+    "reserve": "Book a table"
+  },
+  "lang": {
+    "pl": "PL",
+    "en": "EN"
+  },
+  "hero": {
+    "headline": "bold flavors, bright moments, true togetherness",
+    "eyebrow": "tapas bar",
+    "subtitle": "Tapas Bar",
+    "lead": "middle eastern tapas & good vibes in every bite",
+    "ctaMenu": "See menu",
+    "ctaReserve": "Book a table",
+    "heroImageAlt": "Zaytoon tapas bar on Wawrzyniaka, Poznań"
+  },
+  "intro": {
+    "title": "small plates, big flavors, made for togetherness",
+    "lead": "Small plates from the Levant — to share, to talk, to come back for.",
+    "feature1": "Small plates to share",
+    "feature2": "Levant & Middle Eastern flavours",
+    "feature3": "Coffee, tea & drinks",
+    "script": "Come by for tapas!",
+    "photoAlt": "Table full of tapas at Zaytoon",
+    "locationTitle": "Wawrzyniaka",
+    "mapCta": "View on map",
+    "sageTitle": "real food. warm people. good vibes",
+    "sageLead": "Authentic Middle Eastern flavours, served with heart in the centre of Poznań.",
+    "sageCta": "Our story"
+  },
+  "classics": {
+    "eyebrow": "Tapas highlights",
+    "title": "On the plate",
+    "lead": "Levant classics — from hummus to shakshuka, falafel to baklava.",
+    "cta": "Full menu",
+    "hummusTitle": "Classic Hummus",
+    "hummusDesc": "Creamy hummus with tahini, olive oil & paprika.",
+    "hummusPrice": "24 PLN",
+    "hummusAlt": "Hummus at Zaytoon",
+    "falafelTitle": "Falafel",
+    "falafelDesc": "Crispy herb falafel with seasonal sauce.",
+    "falafelPrice": "26 PLN",
+    "falafelAlt": "Falafel at Zaytoon",
+    "shakshukaTitle": "Shakshuka",
+    "shakshukaDesc": "Eggs in spiced tomato sauce with herbs.",
+    "shakshukaPrice": "32 PLN",
+    "shakshukaAlt": "Shakshuka at Zaytoon",
+    "baklavaTitle": "Baklava",
+    "baklavaDesc": "Layers of filo, nuts & syrup.",
+    "baklavaPrice": "10 PLN",
+    "baklavaAlt": "Baklava at Zaytoon"
+  },
+  "highlight": {
+    "breakfastTitle": "Breakfast",
+    "breakfastBody": "Toast, eggs and savoury plates for a slow start — served daily until 2 p.m.",
+    "brunchTitle": "Brunch",
+    "brunchBody": "Warm dishes and seasonal flavours — perfect when you want to linger.",
+    "coffeeTitle": "Coffee",
+    "coffeeBody": "Espresso, pour-over and milk classics — roasted and brewed with balance."
+  },
+  "menu": {
+    "eyebrow": "Tapas · Levant · Middle East",
+    "title": "Menu",
+    "lead": "Inspired by the flavors of the Levant & Middle East.",
+    "catSmallPlates": "Small Plates",
+    "catWraps": "Wraps",
+    "catSalads": "Salads",
+    "catHotDishes": "Hot Dishes",
+    "catSweets": "Sweets",
+    "catCoffee": "Coffee",
+    "catTeaDrinks": "Tea & Drinks",
+    "catSides": "Sides",
+    "serviceNote": "",
+    "intro": "Inspired by the flavors of the Levant & Middle East — tradition on every plate.",
+    "small": {
+      "hummus": {
+        "name": "Classic Hummus",
+        "price": "24 PLN",
+        "desc": "Creamy chickpea hummus with tahini, olive oil, paprika & parsley"
+      },
+      "muttabal": {
+        "name": "Smoky Muttabal",
+        "price": "28 PLN",
+        "desc": "Fire-roasted eggplant dip with sesame, pomegranate & olive oil"
+      },
+      "falafel": {
+        "name": "Falafel",
+        "price": "26 PLN",
+        "desc": "Crispy herb falafel served with seasonal sauce & pickles"
+      },
+      "ful": {
+        "name": "Palestinian Ful",
+        "price": "28 PLN",
+        "desc": "Warm fava bean stew with cumin, tomato & olive oil"
+      },
+      "labaneh": {
+        "name": "Labaneh",
+        "price": "26 PLN",
+        "desc": "House strained yogurt with za'atar or shatta chili sauce"
+      },
+      "zahra": {
+        "name": "Zahra Bi Tahini",
+        "price": "30 PLN",
+        "desc": "Roasted cauliflower with lemon tahini & sumac"
+      },
+      "fatteh": {
+        "name": "Hummus Fatteh",
+        "price": "33 PLN",
+        "desc": "Layered hummus with yogurt, crispy pita, chickpeas & cashews"
+      }
+    },
+    "wraps": {
+      "falafel": {
+        "name": "Falafel Wrap",
+        "price": "25 PLN",
+        "desc": "Falafel, tahini, pickles & herbs"
+      },
+      "hummus_falafel": {
+        "name": "Hummus + Falafel Wrap",
+        "price": "27 PLN",
+        "desc": "Classic combo with creamy hummus & crunchy falafel"
+      },
+      "nabulsi": {
+        "name": "Grilled Nabulsi Wrap",
+        "price": "29 PLN",
+        "desc": "Salty grilled cheese, tomatoes & za'atar"
+      },
+      "ful_falafel": {
+        "name": "Ful + Falafel Wrap",
+        "price": "28 PLN",
+        "desc": "Rich fava bean spread with crispy falafel"
+      }
+    },
+    "salads": {
+      "tabbouleh": {
+        "name": "Tabbouleh",
+        "price": "24 PLN",
+        "desc": "Parsley, bulgur, tomato, cucumber, mint & lemon dressing"
+      },
+      "fattoush": {
+        "name": "Fattoush",
+        "price": "23 PLN",
+        "desc": "Fresh vegetables, herbs, crispy pita & sumac dressing"
+      }
+    },
+    "hot": {
+      "shakshuka": {
+        "name": "Shakshuka",
+        "price": "32 PLN",
+        "desc": "Eggs baked in spiced tomato sauce with herbs"
+      },
+      "mfarrakeh": {
+        "name": "Mfarrakeh",
+        "price": "29 PLN",
+        "desc": "Spiced potatoes with eggs & seven spice blend"
+      },
+      "mshat": {
+        "name": "Mshat Zahrah",
+        "price": "30 PLN",
+        "desc": "Palestinian cauliflower fritters with mint yogurt"
+      }
+    },
+    "sweets": {
+      "harissa": {
+        "name": "Pistachio Harissa Cake",
+        "price": "12 PLN",
+        "desc": "Sweet semolina cake soaked in floral syrup"
+      },
+      "baklava": {
+        "name": "Baklava",
+        "price": "10 PLN",
+        "desc": "Layers of filo pastry, nuts & syrup"
+      },
+      "halva": {
+        "name": "Halva Melted Pita",
+        "price": "18 PLN",
+        "desc": "Warm pita with melted halva, pistachio & pomegranate"
+      },
+      "date_cake": {
+        "name": "Date Lazy Cake",
+        "price": "14 PLN",
+        "desc": "Soft chocolate-date biscuit cake"
+      }
+    },
+    "coffee": {
+      "espresso": {
+        "name": "Espresso",
+        "price": "10 PLN"
+      },
+      "flat_white": {
+        "name": "Flat White",
+        "price": "14 PLN"
+      },
+      "cappuccino": {
+        "name": "Cappuccino",
+        "price": "14 PLN"
+      },
+      "latte": {
+        "name": "Latte",
+        "price": "15 PLN"
+      },
+      "turkish": {
+        "name": "Turkish Coffee",
+        "price": "13 PLN"
+      },
+      "sahlab": {
+        "name": "Sahlab Espresso",
+        "price": "16 PLN"
+      },
+      "tonic": {
+        "name": "Tonic Espresso",
+        "price": "17 PLN"
+      }
+    },
+    "drinks": {
+      "mint_lemonade": {
+        "name": "Mint Lemonade",
+        "price": "16 PLN"
+      },
+      "tamarind": {
+        "name": "Tamarind Drink",
+        "price": "14 PLN"
+      },
+      "orange_ginger": {
+        "name": "Orange Ginger Raspberry",
+        "price": "16 PLN"
+      },
+      "sage_tea": {
+        "name": "Sage Black Tea",
+        "price": "16 PLN"
+      },
+      "mint_tea": {
+        "name": "Mint Black Tea",
+        "price": "15 PLN"
+      },
+      "syrian_herbal": {
+        "name": "Syrian Herbal Tea",
+        "price": "17 PLN"
+      },
+      "cardamom_milk": {
+        "name": "Cardamom Milk Tea",
+        "price": "19 PLN"
+      }
+    },
+    "sides": {
+      "pita": {
+        "name": "Fresh Pita",
+        "price": "3 PLN"
+      },
+      "pickles": {
+        "name": "Pickles",
+        "price": "5 PLN"
+      },
+      "sauces": {
+        "name": "Sauces",
+        "price": "4 PLN",
+        "desc": "Tahini / Harissa / Za'atar"
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Good things only",
+    "title": "Food gallery",
+    "lead": "Tapas, plates and drinks — straight from the menu and bar.",
+    "photoDot": "Photo {{n}} of {{total}}",
+    "vibeFood": "Tapas at Zaytoon",
+    "vibePlates": "Plates at Zaytoon",
+    "vibeBeverage": "Drink at Zaytoon"
+  },
+  "galleryAlt": {
+    "croissant": "Buttery croissant with espresso",
+    "shakshuka": "Shakshuka in a pan",
+    "drink": "Layered iced coffee drink",
+    "figToast": "Breakfast toast topped with fig",
+    "cake": "Slice of cake on a plate",
+    "strawberryCake": "Strawberry cake",
+    "bagel": "Bagel sandwich with fillings and toppings",
+    "twoBeverages": "Two colourful drinks in glasses"
+  },
+  "gallery.capCroissantTitle": "Croissant & espresso",
+  "gallery.capCroissantSub": "Mornings that smell like butter.",
+  "gallery.capShakshukaTitle": "Shakshuka",
+  "gallery.capShakshukaSub": "A warm plate full of aroma.",
+  "gallery.capDrinkTitle": "Cool coffee serve",
+  "gallery.capDrinkSub": "Ice, fruit syrup, espresso.",
+  "gallery.capFigToastTitle": "Fig toast",
+  "gallery.capFigToastSub": "Sweet-savoury morning on crisp bread.",
+  "gallery.capCakeTitle": "Cake from the counter",
+  "gallery.capCakeSub": "A sweet finish to your visit.",
+  "gallery.capStrawberryCakeTitle": "Strawberry cake",
+  "gallery.capStrawberryCakeSub": "Seasonal berries, light sweetness.",
+  "gallery.capBagelTitle": "Breakfast bagel",
+  "gallery.capBagelSub": "Hearty filling with fresh toppings.",
+  "gallery.capTwoBeveragesTitle": "Bar drinks",
+  "gallery.capTwoBeveragesSub": "Bright mixes — perfect for warm days.",
+  "about": {
+    "eyebrow": "Our place",
+    "title": "About us",
+    "tagline": "With heart",
+    "altCreators": "Zaytoon founders",
+    "altFriends": "Guests at Zaytoon",
+    "altGrandma": "Tradition at Zaytoon",
+    "photoDot": "Photo {{n}} of {{total}}"
+  },
+  "feature": {
+    "storyTitle": "a place where flavors travel and stories live on",
+    "storyLead": "Zaytoon is where Levantine flavours meet Poznań hospitality.",
+    "storyCta": "Read our story",
+    "locationLabel": "Location",
+    "directionsCta": "Get directions",
+    "interiorAlt": "Zaytoon interior"
+  },
+  "testimonials": {
+    "title": "Reviews",
+    "averageScore": "4.8",
+    "scoreSuffix": " out of 5 stars",
+    "basedOn": "Based on ",
+    "reviewCount": "124 reviews",
+    "fiveStarsAria": "Rated 5 out of 5 stars",
+    "carouselDots": "Review indicators",
+    "carouselDot": "Review {{n}} of {{total}}",
+    "quote1": "The best hummus in Poznań — creamy, bold, perfect for sharing.",
+    "quote2": "Shakshuka like in Tel Aviv — we're back with friends every week.",
+    "quote3": "Warm atmosphere, small plates and great service — ideal for an evening out.",
+    "quote4": "Falafel crispy outside, soft inside — exactly as it should be.",
+    "quote5": "Turkish coffee and baklava are a must after dinner.",
+    "quote6": "Colourful interior, good music and flavours that stay with you.",
+    "quote7": "Tabbouleh as fresh as it gets — we come back for lunch.",
+    "quote8": "A place where you really feel the Levant — recommend to everyone.",
+    "quote9": "Muttabal and pita — simple, so good we order twice."
+  },
+  "location": {
+    "eyebrow": "Visit",
+    "title": "Location",
+    "line1": "Wawrzyniaka 20",
+    "line2": "61-001 Poznań, Poland",
+    "mapIframeTitle": "Zaytoon on Google Maps",
+    "mapLink": "Open this place in Google Maps"
+  },
+  "contact": {
+    "eyebrow": "Say hello",
+    "title": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "social": "Social",
+    "instagram": "Instagram · @zaytoonpoznan",
+    "facebook": "Facebook",
+    "hours": "Hours",
+    "dayMon": "Monday",
+    "dayTue": "Tuesday",
+    "dayWed": "Wednesday",
+    "dayThu": "Thursday",
+    "dayFri": "Friday",
+    "daySat": "Saturday",
+    "daySun": "Sunday",
+    "dayMonWed": "Mon–Wed",
+    "dayThuSat": "Thu–Sat",
+    "hoursMon": "9 am–8:30 pm",
+    "hoursTue": "9 am–8:30 pm",
+    "hoursWed": "9 am–8:30 pm",
+    "hoursThu": "9 am–10 pm",
+    "hoursFri": "9 am–10 pm",
+    "hoursSat": "9 am–10 pm",
+    "hoursSun": "10 am–9 pm",
+    "hoursMonWed": "9 am–8:30 pm",
+    "hoursThuSat": "9 am–10 pm",
+    "hoursHolidayNote": "Hours might differ during holidays."
+  },
+  "footer": {
+    "tagline": "Middle eastern tapas — Wawrzyniaka 20, Poznań.",
+    "contactHeading": "Contact",
+    "hoursHeading": "Hours",
+    "hoursText": "Mon–Wed 9 am–8:30 pm · Thu–Sat 9 am–10 pm · Sun 10 am–9 pm",
+    "followHeading": "Follow",
+    "instagram": "Instagram · @zaytoonpoznan",
+    "facebook": "Facebook · Zaytoon",
+    "instagramShort": "Instagram",
+    "facebookShort": "Facebook"
+  }
+}

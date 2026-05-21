@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Zaytoon">
+  <circle cx="60" cy="60" r="58" fill="#1a3d2e"/>
+  <circle cx="60" cy="60" r="54" fill="none" stroke="#d4b84a" stroke-width="2"/>
+  <g transform="translate(60 52)" fill="#f5f0e6">
+    <ellipse cx="0" cy="8" rx="14" ry="6" fill="#6b8f4e" opacity="0.9"/>
+    <path d="M0-18 C-8-8 -10 2 0 10 C10 2 8-8 0-18Z" fill="#8fbc5a"/>
+    <path d="M-12-4 C-18 0 -16 8 -8 10 C-6 4 -8-2 -12-4Z" fill="#7aa84a"/>
+    <path d="M12-4 C18 0 16 8 8 10 C6 4 8-2 12-4Z" fill="#7aa84a"/>
+    <path d="M-6 0 C-4 6 0 8 0 8 C0 8 4 6 6 0 C3-2 0-2 0-2 C0-2-3-2-6 0Z" fill="#5a7a38"/>
+  </g>
+  <text x="60" y="98" text-anchor="middle" font-family="Georgia, serif" font-size="11" letter-spacing="3" fill="#f5f0e6">ZAYTOON</text>
+</svg>

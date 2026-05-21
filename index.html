@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zaytoon | Tapas Bar</title>
+    <meta
+      name="description"
+      content="Zaytoon — middle eastern tapas & good vibes. Wawrzyniaka 20, Poznań."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon-64.png" sizes="64x64" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="a11y.skipLink">Przejdź do treści</a>
+
+    <header class="site-header site-header--overlay" id="top">
+      <div class="header-inner">
+        <a
+          class="logo"
+          href="#top"
+          data-i18n-attr="aria-label:a11y.logoHome"
+          aria-label="Strona główna Zaytoon"
+        >
+          <span class="logo-mark" aria-hidden="true">
+            <img
+              src="assets/logo-mark.svg"
+              alt=""
+              width="44"
+              height="44"
+              decoding="async"
+            />
+          </span>
+          <span class="logo-wordmark">
+            <span class="logo-big brand-name notranslate" translate="no">Zaytoon</span>
+            <span class="logo-small notranslate" translate="no">Tapas Bar</span>
+          </span>
+        </a>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span class="nav-toggle-lines" aria-hidden="true"></span>
+          <span class="sr-only" data-i18n="a11y.navMobileLabel">Menu</span>
+        </button>
+
+        <nav
+          class="site-nav"
+          id="site-nav"
+          aria-label="Menu główne"
+          data-i18n-attr="aria-label:a11y.navPrimary"
+        >
+          <div class="site-nav-panel">
+            <div class="site-nav-links">
+              <a href="#menu" data-i18n="nav.menu">Menu</a>
+              <a href="#classics" data-i18n="nav.tapas">Tapas</a>
+              <a href="#menu" data-i18n="nav.drinks">Napoje</a>
+              <a href="#gallery" data-i18n="nav.gallery">Galeria</a>
+              <a href="#about" data-i18n="nav.about">O nas</a>
+              <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+            </div>
+            <div class="site-nav-actions">
+              <a class="btn btn-filled btn-header" href="tel:+48667709610" data-i18n="nav.reserve">Rezerwuj stolik</a>
+              <div
+                class="lang-switch"
+                role="group"
+                data-i18n-attr="aria-label:a11y.langSwitch"
+                aria-label="Wybór języka"
+              >
+                <button type="button" class="lang-switch-btn" data-lang="pl" aria-pressed="true">PL</button>
+                <button type="button" class="lang-switch-btn" data-lang="en" aria-pressed="false">EN</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero hero--inspo" aria-labelledby="hero-title">
+        <div class="hero-panel">
+          <div class="hero-inner">
+            <div class="hero-copy">
+              <h1 id="hero-title" class="hero-title">
+                <span class="hero-title-big" data-i18n="hero.headline">bold flavors, bright moments, true togetherness</span>
+              </h1>
+              <p class="hero-lead" data-i18n="hero.lead">middle eastern tapas & good vibes in every bite</p>
+              <div class="hero-cta-cluster">
+                <a class="btn btn-filled" href="tel:+48667709610" data-i18n="hero.ctaReserve">Rezerwuj stolik</a>
+                <a class="btn-text hero-cta-secondary" href="#menu" data-i18n="hero.ctaMenu">Zobacz menu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <figure class="hero-photo" aria-hidden="true">
+          <img
+            src="assets/hero-and-logo/hero.jpg"
+            alt=""
+            class="notranslate"
+            translate="no"
+            data-i18n-attr="alt:hero.heroImageAlt"
+            width="1200"
+            height="800"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+
+      <!-- Intro split (inspo) -->
+      <section class="intro-split" aria-labelledby="intro-heading">
+        <figure class="intro-split-col intro-split-col--photo">
+          <img
+            src="assets/after-hero-image/nice-table.jpg"
+            alt=""
+            width="900"
+            height="1200"
+            loading="lazy"
+            decoding="async"
+            data-i18n-attr="alt:intro.photoAlt"
+          />
+        </figure>
+        <div class="intro-split-col intro-split-col--cream">
+          <h2 id="intro-heading" class="intro-split-title" data-i18n="intro.title">small plates, big flavors, made for togetherness</h2>
+          <p class="intro-split-lead" data-i18n="intro.lead">
+            Małe talerze z Lewantu — do dzielenia się, do rozmów, do powrotu.
+          </p>
+          <a class="link-underline intro-cta" href="#menu" data-i18n="classics.cta">Zobacz menu</a>
+        </div>
+        <div class="intro-split-col intro-split-col--sage" id="location-preview">
+          <h2 class="intro-split-title intro-split-title--light" data-i18n="intro.sageTitle">real food. warm people. good vibes</h2>
+          <p class="intro-location-text" data-i18n="intro.sageLead">
+            Autentyczne smaki Bliskiego Wschodu, serwowane z sercem w sercu Poznania.
+          </p>
+          <a class="link-underline link-underline--light intro-map-link" href="#about" data-i18n="intro.sageCta">Nasza historia</a>
+        </div>
+      </section>
+
+      <!-- Classics (inspo) -->
+      <section class="segment segment-classics" id="classics" aria-labelledby="classics-heading">
+        <div class="segment-inner classics-layout">
+          <header class="classics-head">
+            <p class="classics-eyebrow" data-i18n="classics.eyebrow">Tapas highlights</p>
+            <h2 id="classics-heading" class="section-title" data-i18n="classics.title">Na talerzu</h2>
+            <p class="classics-intro-lead" data-i18n="classics.lead">Klasyki Lewantu — od hummusu po szakszukę, od falafela po baklawę.</p>
+            <a class="link-underline classics-cta" href="#menu" data-i18n="classics.cta">Pełne menu</a>
+          </header>
+          <ul class="classics-grid">
+            <li class="classic-card">
+              <div class="classic-card-photo">
+                <img src="assets/classics/plates.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:classics.hummusAlt" />
+              </div>
+              <h3 class="classic-card-title" data-i18n="classics.hummusTitle">Classic Hummus</h3>
+              <p class="classic-card-desc" data-i18n="classics.hummusDesc">Kremowy hummus z tahini, oliwą i papryką.</p>
+              <span class="classic-card-price" data-i18n="classics.hummusPrice">24 zł</span>
+            </li>
+            <li class="classic-card">
+              <div class="classic-card-photo">
+                <img src="assets/classics/falaffel.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:classics.falafelAlt" />
+              </div>
+              <h3 class="classic-card-title" data-i18n="classics.falafelTitle">Falafel</h3>
+              <p class="classic-card-desc" data-i18n="classics.falafelDesc">Chrupiące falafele z ziołami i sezonowym sosem.</p>
+              <span class="classic-card-price" data-i18n="classics.falafelPrice">26 zł</span>
+            </li>
+            <li class="classic-card">
+              <div class="classic-card-photo">
+                <img src="assets/classics/pitta.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:classics.shakshukaAlt" />
+              </div>
+              <h3 class="classic-card-title" data-i18n="classics.shakshukaTitle">Shakshuka</h3>
+              <p class="classic-card-desc" data-i18n="classics.shakshukaDesc">Jajka w aromatycznym sosie pomidorowym z ziołami.</p>
+              <span class="classic-card-price" data-i18n="classics.shakshukaPrice">32 zł</span>
+            </li>
+            <li class="classic-card">
+              <div class="classic-card-photo">
+                <img src="assets/classics/dessert.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:classics.baklavaAlt" />
+              </div>
+              <h3 class="classic-card-title" data-i18n="classics.baklavaTitle">Baklava</h3>
+              <p class="classic-card-desc" data-i18n="classics.baklavaDesc">Warstwy filo, orzechy i syrop.</p>
+              <span class="classic-card-price" data-i18n="classics.baklavaPrice">10 zł</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Menu -->
+      <section class="segment segment-menu" id="menu" aria-labelledby="menu-heading">
+        <div class="segment-inner menu-layout">
+          <header class="menu-intro">
+            <div class="menu-intro-text">
+              <p class="eyebrow dusty-text" data-i18n="menu.eyebrow">Tapas · Lewant · Bliski Wschód</p>
+              <h2 id="menu-heading" class="section-title" data-i18n="menu.title">Menu</h2>
+              <span class="rule"></span>
+              <p class="lead menu-intro-lead" data-i18n="menu.lead">
+                Smaki Lewantu i Bliskiego Wschodu — dania inspirowane tradycją.
+              </p>
+            </div>
+          </header>
+
+          <div class="menu-catalog">
+            <div class="menu-catalog-columns">
+              <div class="menu-catalog-col menu-catalog-col--food">
+            <div class="menu-category">
+              <h3 class="menu-category-heading" data-i18n="menu.catSmallPlates">Małe talerze</h3>
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.small.hummus.name">Classic Hummus</span>
+                    <span class="menu-item-price" data-i18n="menu.small.hummus.price">24 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.small.hummus.desc">Kremowy hummus z ciecierzycy z tahini, oliwą, papryką i pietruszką</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.small.muttabal.name">Smoky Muttabal</span>
+                    <span class="menu-item-price" data-i18n="menu.small.muttabal.price">28 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.small.muttabal.desc">Dip z pieczonego bakłażana z sezamem, granatem i oliwą</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.small.falafel.name">Falafel</span>
+                    <span class="menu-item-price" data-i18n="menu.small.falafel.price">26 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.small.falafel.desc">Chrupiące falafele z ziołami, sezonowym sosem i ogórkami</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.small.ful.name">Palestinian Ful</span>
+                    <span class="menu-item-price" data-i18n="menu.small.ful.price">28 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.small.ful.desc">Ciepły gulasz z bobu z kminkiem, pomidorem i oliwą</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.small.labaneh.name">Labaneh</span>
+                    <span class="menu-item-price" data-i18n="menu.small.labaneh.price">26 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.small.labaneh.desc">Domowy jogurt z zaatarem lub sosem shatta chili</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.small.zahra.name">Zahra Bi Tahini</span>
+                    <span class="menu-item-price" data-i18n="menu.small.zahra.price">30 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.small.zahra.desc">Pieczony kalafior z cytrynową tahini i sumakiem</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.small.fatteh.name">Hummus Fatteh</span>
+                    <span class="menu-item-price" data-i18n="menu.small.fatteh.price">33 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.small.fatteh.desc">Warstwowy hummus z jogurtem, chrupiącą pitą, ciecierzycą i nerkowcem</p>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-category">
+              <h3 class="menu-category-heading" data-i18n="menu.catWraps">Wrapy</h3>
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.wraps.falafel.name">Falafel Wrap</span>
+                    <span class="menu-item-price" data-i18n="menu.wraps.falafel.price">25 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.wraps.falafel.desc">Falafel, tahini, ogórki i zioła</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.wraps.hummus_falafel.name">Hummus + Falafel Wrap</span>
+                    <span class="menu-item-price" data-i18n="menu.wraps.hummus_falafel.price">27 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.wraps.hummus_falafel.desc">Klasyczne połączenie kremowego hummusu i chrupiącego falafela</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.wraps.nabulsi.name">Grilled Nabulsi Wrap</span>
+                    <span class="menu-item-price" data-i18n="menu.wraps.nabulsi.price">29 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.wraps.nabulsi.desc">Grillowany słony ser, pomidory i zaatar</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.wraps.ful_falafel.name">Ful + Falafel Wrap</span>
+                    <span class="menu-item-price" data-i18n="menu.wraps.ful_falafel.price">28 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.wraps.ful_falafel.desc">Bogaty pastet z bobu z chrupiącym falafelem</p>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-category">
+              <h3 class="menu-category-heading" data-i18n="menu.catSalads">Sałatki</h3>
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.salads.tabbouleh.name">Tabbouleh</span>
+                    <span class="menu-item-price" data-i18n="menu.salads.tabbouleh.price">24 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.salads.tabbouleh.desc">Pietruszka, bulgur, pomidor, ogórek, mięta i dressing cytrynowy</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.salads.fattoush.name">Fattoush</span>
+                    <span class="menu-item-price" data-i18n="menu.salads.fattoush.price">23 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.salads.fattoush.desc">Świeże warzywa, zioła, chrupiąca pita i dressing z sumakiem</p>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-category">
+              <h3 class="menu-category-heading" data-i18n="menu.catHotDishes">Dania na ciepło</h3>
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.hot.shakshuka.name">Shakshuka</span>
+                    <span class="menu-item-price" data-i18n="menu.hot.shakshuka.price">32 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.hot.shakshuka.desc">Jajka pieczone w aromatycznym sosie pomidorowym z ziołami</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.hot.mfarrakeh.name">Mfarrakeh</span>
+                    <span class="menu-item-price" data-i18n="menu.hot.mfarrakeh.price">29 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.hot.mfarrakeh.desc">Przyprawione ziemniaki z jajkami i mieszanką siedmiu przypraw</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.hot.mshat.name">Mshat Zahrah</span>
+                    <span class="menu-item-price" data-i18n="menu.hot.mshat.price">30 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.hot.mshat.desc">Palestyńskie placki z kalafiora z miętowym jogurtem</p>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-category">
+              <h3 class="menu-category-heading" data-i18n="menu.catSweets">Słodkości</h3>
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.sweets.harissa.name">Pistachio Harissa Cake</span>
+                    <span class="menu-item-price" data-i18n="menu.sweets.harissa.price">12 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.sweets.harissa.desc">Słodkie ciasto semolina moczone w kwiatowym syropie</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.sweets.baklava.name">Baklava</span>
+                    <span class="menu-item-price" data-i18n="menu.sweets.baklava.price">10 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.sweets.baklava.desc">Warstwy ciasta filo, orzechy i syrop</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.sweets.halva.name">Halva Melted Pita</span>
+                    <span class="menu-item-price" data-i18n="menu.sweets.halva.price">18 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.sweets.halva.desc">Ciepła pita z roztopioną chałwą, pistacjami i granatem</p>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.sweets.date_cake.name">Date Lazy Cake</span>
+                    <span class="menu-item-price" data-i18n="menu.sweets.date_cake.price">14 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.sweets.date_cake.desc">Miękkie ciasto-biszkopt czekoladowo-daktylowe</p>
+                </li>
+              </ul>
+            </div>
+              </div>
+              <div class="menu-catalog-col menu-catalog-col--drinks">
+            <div class="menu-category">
+              <h3 class="menu-category-heading" data-i18n="menu.catCoffee">Kawa</h3>
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.coffee.espresso.name">Espresso</span>
+                    <span class="menu-item-price" data-i18n="menu.coffee.espresso.price">10 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.coffee.flat_white.name">Flat White</span>
+                    <span class="menu-item-price" data-i18n="menu.coffee.flat_white.price">14 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.coffee.cappuccino.name">Cappuccino</span>
+                    <span class="menu-item-price" data-i18n="menu.coffee.cappuccino.price">14 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.coffee.latte.name">Latte</span>
+                    <span class="menu-item-price" data-i18n="menu.coffee.latte.price">15 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.coffee.turkish.name">Turkish Coffee</span>
+                    <span class="menu-item-price" data-i18n="menu.coffee.turkish.price">13 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.coffee.sahlab.name">Sahlab Espresso</span>
+                    <span class="menu-item-price" data-i18n="menu.coffee.sahlab.price">16 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.coffee.tonic.name">Tonic Espresso</span>
+                    <span class="menu-item-price" data-i18n="menu.coffee.tonic.price">17 zł</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-category">
+              <h3 class="menu-category-heading" data-i18n="menu.catTeaDrinks">Herbata i napoje</h3>
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.mint_lemonade.name">Mint Lemonade</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.mint_lemonade.price">16 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.tamarind.name">Tamarind Drink</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.tamarind.price">14 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.orange_ginger.name">Orange Ginger Raspberry</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.orange_ginger.price">16 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.sage_tea.name">Sage Black Tea</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.sage_tea.price">16 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.mint_tea.name">Mint Black Tea</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.mint_tea.price">15 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.syrian_herbal.name">Syrian Herbal Tea</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.syrian_herbal.price">17 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.drinks.cardamom_milk.name">Cardamom Milk Tea</span>
+                    <span class="menu-item-price" data-i18n="menu.drinks.cardamom_milk.price">19 zł</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-category">
+              <h3 class="menu-category-heading" data-i18n="menu.catSides">Dodatki</h3>
+              <ul class="menu-items">
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.sides.pita.name">Fresh Pita</span>
+                    <span class="menu-item-price" data-i18n="menu.sides.pita.price">3 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.sides.pickles.name">Pickles</span>
+                    <span class="menu-item-price" data-i18n="menu.sides.pickles.price">5 zł</span>
+                  </div>
+                </li>
+                <li class="menu-item">
+                  <div class="menu-item-head">
+                    <span class="menu-item-name" data-i18n="menu.sides.sauces.name">Sauces</span>
+                    <span class="menu-item-price" data-i18n="menu.sides.sauces.price">4 zł</span>
+                  </div>
+                  <p class="menu-item-desc" data-i18n="menu.sides.sauces.desc">Tahini / Harissa / Za'atar</p>
+                </li>
+              </ul>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="segment segment-gallery segment-gallery--vibe" id="gallery" aria-label="Galeria" data-i18n-attr="aria-label:a11y.galleryRegion">
+        <div class="vibe-gallery">
+          <figure class="vibe-gallery-item">
+            <img src="assets/gallery/food.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:gallery.vibeFood" />
+          </figure>
+          <figure class="vibe-gallery-item">
+            <img src="assets/gallery/plates.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:gallery.vibePlates" />
+          </figure>
+          <figure class="vibe-gallery-item">
+            <img src="assets/gallery/beverage.jpg" alt="" loading="lazy" decoding="async" data-i18n-attr="alt:gallery.vibeBeverage" />
+          </figure>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="segment segment-about dusty-panel" id="about" aria-labelledby="about-heading">
+        <div class="segment-inner about-stack">
+          <div class="segment-head center-head about-head-dusty">
+            <p class="eyebrow inverted-eyebrow" data-i18n="about.eyebrow">Nasze miejsce</p>
+            <h2 id="about-heading" class="section-title inverted-title" data-i18n="about.title">O nas</h2>
+            <span class="rule rule-light center-rule"></span>
+            <p class="about-love-line" data-i18n="about.tagline">Z sercem</p>
+          </div>
+
+          <div
+            class="about-gallery"
+            data-about-gallery
+            role="region"
+            aria-label="Galeria Zaytoon"
+            data-i18n-attr="aria-label:a11y.galleryRegion"
+          >
+            <div
+              class="about-photo-grid"
+              tabindex="0"
+              role="group"
+              aria-label="Zdjęcia"
+              data-i18n-attr="aria-label:a11y.galleryPhotos"
+            >
+              <figure class="about-photo-card">
+                <img
+                  src="assets/about-us/creators.jpg"
+                  alt="Założyciele Zaytoon"
+                  data-i18n-attr="alt:about.altCreators"
+                  width="1080"
+                  height="1351"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <figure class="about-photo-card">
+                <img
+                  src="assets/about-us/friends.jpg"
+                  alt="Goście w Zaytoon"
+                  data-i18n-attr="alt:about.altFriends"
+                  width="1024"
+                  height="1280"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <figure class="about-photo-card">
+                <img
+                  src="assets/about-us/grandma.jpg"
+                  alt="Tradycja w Zaytoon"
+                  data-i18n-attr="alt:about.altGrandma"
+                  width="800"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+            </div>
+            <div class="about-photo-dots" aria-label="Wskaźniki zdjęć" data-i18n-attr="aria-label:a11y.galleryDots"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature grid 2 (inspo) -->
+      <section class="feature-grid-2" aria-labelledby="story-heading">
+        <figure class="feature-grid-2-col feature-grid-2-col--photo">
+          <img
+            src="assets/gallery/plates.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            data-i18n-attr="alt:feature.interiorAlt"
+          />
+        </figure>
+        <div class="feature-grid-2-col feature-grid-2-col--magenta">
+          <h2 id="story-heading" class="intro-split-title" data-i18n="feature.storyTitle">a place where flavors travel and stories live on</h2>
+          <p class="intro-split-lead" data-i18n="feature.storyLead">
+            Zaytoon to miejsce, w którym smaki Lewantu spotykają się z poznańską gościnnością.
+          </p>
+          <a class="link-underline link-underline--light" href="#about" data-i18n="feature.storyCta">Poznaj nas</a>
+        </div>
+        <div class="feature-grid-2-col feature-grid-2-col--teal">
+          <div class="feature-contact-block">
+            <h3 data-i18n="feature.locationLabel">Lokalizacja</h3>
+            <address>
+              <span data-i18n="location.line1">Wawrzyniaka 20</span><br />
+              <span data-i18n="location.line2">61-001 Poznań, Polska</span>
+            </address>
+            <p><a class="link-underline link-underline--light" href="#location" data-i18n="feature.directionsCta">Jak dojechać</a></p>
+          </div>
+          <div class="feature-contact-block">
+            <h3 data-i18n="contact.hours">Godziny</h3>
+            <div class="feature-hours-row"><span data-i18n="contact.dayMonWed">Pon–Śr</span><span data-i18n="contact.hoursMonWed">9:00–20:30</span></div>
+            <div class="feature-hours-row"><span data-i18n="contact.dayThuSat">Czw–Sob</span><span data-i18n="contact.hoursThuSat">9:00–22:00</span></div>
+            <div class="feature-hours-row"><span data-i18n="contact.daySun">Niedziela</span><span data-i18n="contact.hoursSun">10:00–21:00</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="segment" id="testimonials" aria-labelledby="testimonials-heading">
+        <div class="segment-inner">
+          <div class="segment-head center-head">
+            <h2 id="testimonials-heading" class="section-title" data-i18n="testimonials.title">Opinie</h2>
+            <span class="rule center-rule"></span>
+            <p class="testimonials-summary">
+              <span class="testimonials-summary-row">
+                <strong class="testimonials-score"
+                  ><span data-i18n="testimonials.averageScore">4,7</span
+                  ><span class="sr-only" data-i18n="testimonials.scoreSuffix"> na 5 gwiazdek</span></strong
+                >
+                <span class="aggregate-stars" aria-hidden="true">
+                  <svg class="aggregate-star-svg" viewBox="0 0 24 24" focusable="false">
+                    <path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                  </svg>
+                  <svg class="aggregate-star-svg" viewBox="0 0 24 24" focusable="false">
+                    <path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                  </svg>
+                  <svg class="aggregate-star-svg" viewBox="0 0 24 24" focusable="false">
+                    <path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                  </svg>
+                  <svg class="aggregate-star-svg" viewBox="0 0 24 24" focusable="false">
+                    <path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                  </svg>
+                  <span class="aggregate-star-partial" style="--aggregate-star-fill: 0.7">
+                    <svg class="aggregate-star-svg aggregate-star-svg--track" viewBox="0 0 24 24" focusable="false">
+                      <path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                    </svg>
+                    <span class="aggregate-star-partial-fill">
+                      <svg class="aggregate-star-svg" viewBox="0 0 24 24" focusable="false">
+                        <path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                      </svg>
+                    </span>
+                  </span>
+                </span>
+                <span class="testimonials-summary-dot" aria-hidden="true">·</span>
+                <span class="testimonials-review-count"
+                  ><span class="sr-only" data-i18n="testimonials.basedOn">Na podstawie </span
+                  ><span data-i18n="testimonials.reviewCount">983 opinie</span></span
+                >
+              </span>
+            </p>
+          </div>
+          <div class="testimonials-quotes" role="region" aria-labelledby="testimonials-heading">
+            <div class="quotes">
+              <blockquote class="quote-card quote-card--review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/tomek-kreczmar.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote1">Tu pachnie kawą od progu — croissant i flat white na poziomie.</p>
+                <footer>Tomek K.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/marta-cacic.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote2">Szakszuka jak z moich wakacji — wracam na weekendowy brunch.</p>
+                <footer>Marta Ć.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/palina-kratovich.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote3">Obsługa bez pośpiechu, idealnie na spotkanie z książką.</p>
+                <footer>Palina K.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review quote-card--long-review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/aleksandra-markiewicz.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote4">Najlepsza kawa w okolicy — flat white i ciasto za każdym razem na poziomie.</p>
+                <footer>Aleksandra M.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review quote-card--long-review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/artur-zieba.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote5">Spokój, przestrzeń i śniadanie przed pracą — dokładnie tego szukałem.</p>
+                <footer>Artur Z.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review quote-card--long-review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/cindy-chou.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote6">Obsługa bez pośpiechu — jak kawowa chwila u znajomych.</p>
+                <footer>Cindy C.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review quote-card--long-review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/julia-andrzejewska.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote7">Weekendowy brunch to nasza tradycja — porcje szczodre i wyraziste smaki.</p>
+                <footer>Julia A.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review quote-card--long-review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/kirill-kaluga.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote8">Klimatyczny lokal i muzyka w tle — idealnie na kawę z przyjaciółmi.</p>
+                <footer>Kirill K.</footer>
+              </blockquote>
+              <blockquote class="quote-card quote-card--review quote-card--long-review">
+                <div class="quote-card-meta">
+                  <img class="quote-card-avatar" src="assets/testimonial-icons/mieczylaw-wila.png" alt="" width="104" height="104" loading="lazy" decoding="async" />
+                  <div class="quote-stars-wrap">
+                    <div class="quote-stars" role="img" aria-label="Ocena 5 na 5 gwiazdek" data-i18n-attr="aria-label:testimonials.fiveStarsAria">
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      <svg class="quote-star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    </div>
+                  </div>
+                </div>
+                <p data-i18n="testimonials.quote9">Szczególnie polecam szakszukę i domowe wypieki — wracam po więcej.</p>
+                <footer>Mieczyław W.</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Location + Contact -->
+      <section class="segment segment-bottom" aria-label="Odwiedź nas" data-i18n-attr="aria-label:a11y.visitSection">
+        <div class="segment-inner two-col">
+          <div class="segment-block segment-panel" id="location">
+            <p class="eyebrow dusty-text" data-i18n="location.eyebrow">Odwiedź nas</p>
+            <h2 class="section-title" data-i18n="location.title">Lokalizacja</h2>
+            <span class="rule"></span>
+            <p class="address">
+              <span data-i18n="location.line1">Wawrzyniaka 20</span><br />
+              <span data-i18n="location.line2">61-001 Poznań, Polska</span>
+            </p>
+            <div class="location-map-wrap">
+              <iframe
+                title="Zaytoon w Mapach Google"
+                data-i18n-attr="title:location.mapIframeTitle"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://maps.google.com/maps?q=Zaytoon+Wawrzyniaka+20+61-001+Pozna%C5%84&amp;hl=pl&amp;z=17&amp;output=embed"
+                allowfullscreen=""
+              ></iframe>
+            </div>
+            <p class="location-map-link">
+              <a
+                href="https://www.google.com/maps/search/?api=1&amp;query=Wawrzyniaka+20+61-001+Pozna%C5%84"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="location.mapLink"
+              >
+                Otwórz miejsce w Mapach Google
+              </a>
+            </p>
+          </div>
+
+          <div class="segment-block segment-panel bordered" id="contact">
+            <p class="eyebrow dusty-text" data-i18n="contact.eyebrow">Napisz do nas</p>
+            <h2 class="section-title" data-i18n="contact.title">Kontakt</h2>
+            <span class="rule"></span>
+            <dl class="contact-lines">
+              <div>
+                <dt data-i18n="contact.phone">Telefon</dt>
+                <dd><a href="tel:+48667709610">667 709 610</a></dd>
+              </div>
+              <div>
+                <dt data-i18n="contact.email">E-mail</dt>
+                <dd>
+                  <a href="mailto:hello@zaytoon.pl">hello@zaytoon.pl</a>
+                </dd>
+              </div>
+
+              <div>
+                <dt data-i18n="contact.social">Social media</dt>
+                <dd class="contact-social-links">
+                  <a href="https://www.instagram.com/zaytoonpoznan" target="_blank" rel="noopener noreferrer" data-i18n="contact.instagram">Instagram · @zaytoonpoznan</a>
+                  <a href="https://www.facebook.com/zaytoonpoznan" target="_blank" rel="noopener noreferrer" data-i18n="contact.facebook">Facebook</a>
+                </dd>
+              </div>
+              <div>
+                <dt data-i18n="contact.hours">Godziny</dt>
+                <dd>
+                  <dl class="contact-hours">
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.dayMon">Poniedziałek</dt>
+                      <dd data-i18n="contact.hoursMon">9:00–20:30</dd>
+                    </div>
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.dayTue">Wtorek</dt>
+                      <dd data-i18n="contact.hoursTue">9:00–20:30</dd>
+                    </div>
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.dayWed">Środa</dt>
+                      <dd data-i18n="contact.hoursWed">9:00–20:30</dd>
+                    </div>
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.dayThu">Czwartek</dt>
+                      <dd data-i18n="contact.hoursThu">9:00–22:00</dd>
+                    </div>
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.dayFri">Piątek</dt>
+                      <dd data-i18n="contact.hoursFri">9:00–22:00</dd>
+                    </div>
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.daySat">Sobota</dt>
+                      <dd data-i18n="contact.hoursSat">9:00–22:00</dd>
+                    </div>
+                    <div class="contact-hours-row">
+                      <dt data-i18n="contact.daySun">Niedziela</dt>
+                      <dd data-i18n="contact.hoursSun">10:00–21:00</dd>
+                    </div>
+                  </dl>
+                  <p class="contact-hours-note" data-i18n="contact.hoursHolidayNote">
+                    W święta godziny mogą być inne.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-bar">
+        <p class="footer-bar-copy">
+          © <span id="year"></span>
+          <span class="brand-name notranslate" translate="no">Zaytoon</span>
+        </p>
+        <nav class="footer-bar-nav" aria-label="Social media">
+          <a href="https://www.instagram.com/zaytoonpoznan" target="_blank" rel="noopener noreferrer" data-i18n="footer.instagramShort">Instagram</a>
+          <a href="https://www.facebook.com/zaytoonpoznan" target="_blank" rel="noopener noreferrer" data-i18n="footer.facebookShort">Facebook</a>
+          <a href="#contact" data-i18n="nav.contact">Kontakt</a>
+        </nav>
+        <p class="footer-bar-contact">
+          <a href="mailto:hello@zaytoon.pl">hello@zaytoon.pl</a>
+          <span class="footer-bar-sep" aria-hidden="true">·</span>
+          <a href="tel:+48667709610">667 709 610</a>
+        </p>
+      </div>
+    </footer>
+
+    <script defer src="i18n.js"></script>
+    <script defer src="script.js"></script>
+  </body>
+</html>
