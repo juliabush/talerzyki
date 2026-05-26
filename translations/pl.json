@@ -1,16 +1,16 @@
 {
   "meta": {
-    "title": "Zaytoon | Tapas Bar",
-    "description": "Zaytoon — middle eastern tapas & good vibes. Wawrzyniaka 20, Poznań."
+    "title": "Talerzyki",
+    "description": "Talerzyki — smaki Bliskiego Wschodu i dobra energia. Wawrzyniaka 20, Poznań."
   },
   "a11y": {
     "skipLink": "Przejdź do treści",
-    "logoHome": "Strona główna Zaytoon",
+    "logoHome": "Strona główna Talerzyki",
     "navPrimary": "Menu główne",
     "navMobileLabel": "Menu",
     "highlights": "Wyróżnienia",
     "visitSection": "Odwiedź nas",
-    "galleryRegion": "Galeria Zaytoon",
+    "galleryRegion": "Galeria Talerzyki",
     "galleryPhotos": "Zdjęcia",
     "foodGalleryScroller": "Przewijana galeria potraw",
     "galleryDots": "Wskaźniki zdjęć",
@@ -18,7 +18,7 @@
   },
   "nav": {
     "menu": "Menu",
-    "tapas": "Tapas",
+    "tapas": "Klasyki",
     "drinks": "Napoje",
     "gallery": "Galeria",
     "about": "O nas",
@@ -33,12 +33,12 @@
   },
   "hero": {
     "headline": "bold flavors, bright moments, true togetherness",
-    "eyebrow": "tapas bar",
-    "subtitle": "Tapas Bar",
-    "lead": "middle eastern tapas & good vibes in every bite",
+    "eyebrow": "bliski wschód",
+    "subtitle": "Bliski Wschód",
+    "lead": "smaki Bliskiego Wschodu i dobra energia w każdym kęsie",
     "ctaMenu": "Zobacz menu",
     "ctaReserve": "Rezerwuj stolik",
-    "heroImageAlt": "Zaytoon — tapas bar na Wawrzyniaka w Poznaniu"
+    "heroImageAlt": "Talerzyki — restauracja bliskowschodnia na Wawrzyniaka w Poznaniu"
   },
   "intro": {
     "title": "small plates, big flavors, made for togetherness",
@@ -46,8 +46,8 @@
     "feature1": "Małe talerze do dzielenia",
     "feature2": "Smaki Lewantu i Bliskiego Wschodu",
     "feature3": "Kawa, herbata i napoje",
-    "script": "Wpadnij na tapas!",
-    "photoAlt": "Stół pełen tapas w Zaytoon",
+    "script": "Wpadnij do nas!",
+    "photoAlt": "Stół pełen dań w Talerzyki",
     "locationTitle": "Wawrzyniaka",
     "mapCta": "Zobacz na mapie",
     "sageTitle": "real food. warm people. good vibes",
@@ -55,26 +55,26 @@
     "sageCta": "Nasza historia"
   },
   "classics": {
-    "eyebrow": "Tapas highlights",
+    "eyebrow": "Klasyki Bliskiego Wschodu",
     "title": "Na talerzu",
     "lead": "Klasyki Lewantu — od hummusu po szakszukę, od falafela po baklawę.",
     "cta": "Pełne menu",
     "hummusTitle": "Classic Hummus",
     "hummusDesc": "Kremowy hummus z tahini, oliwą i papryką.",
     "hummusPrice": "24 zł",
-    "hummusAlt": "Hummus w Zaytoon",
+    "hummusAlt": "Hummus w Talerzyki",
     "falafelTitle": "Falafel",
     "falafelDesc": "Chrupiące falafele z ziołami i sezonowym sosem.",
     "falafelPrice": "26 zł",
-    "falafelAlt": "Falafel w Zaytoon",
+    "falafelAlt": "Falafel w Talerzyki",
     "shakshukaTitle": "Shakshuka",
     "shakshukaDesc": "Jajka w aromatycznym sosie pomidorowym z ziołami.",
     "shakshukaPrice": "32 zł",
-    "shakshukaAlt": "Shakshuka w Zaytoon",
+    "shakshukaAlt": "Shakshuka w Talerzyki",
     "baklavaTitle": "Baklava",
     "baklavaDesc": "Warstwy filo, orzechy i syrop.",
     "baklavaPrice": "10 zł",
-    "baklavaAlt": "Baklava w Zaytoon"
+    "baklavaAlt": "Baklava w Talerzyki"
   },
   "highlight": {
     "breakfastTitle": "Śniadanie",
@@ -85,7 +85,7 @@
     "coffeeBody": "Espresso, przelew i klasyki na mleku — palona i parzona z troską o balans."
   },
   "menu": {
-    "eyebrow": "Tapas · Lewant · Bliski Wschód",
+    "eyebrow": "Lewant · Bliski Wschód",
     "title": "Menu",
     "lead": "Smaki Lewantu i Bliskiego Wschodu — dania inspirowane tradycją.",
     "catSmallPlates": "Małe talerze",
@@ -287,11 +287,11 @@
   "gallery": {
     "eyebrow": "Same dobre rzeczy",
     "title": "Galeria smaków",
-    "lead": "Tapas, talerze i napoje — rzeczy z menu i baru.",
+    "lead": "Talerze i napoje — rzeczy z menu i baru.",
     "photoDot": "Zdjęcie {{n}} z {{total}}",
-    "vibeFood": "Tapas w Zaytoon",
-    "vibePlates": "Talerze w Zaytoon",
-    "vibeBeverage": "Napój w Zaytoon"
+    "vibeFood": "Jedzenie w Talerzyki",
+    "vibePlates": "Talerze w Talerzyki",
+    "vibeBeverage": "Napój w Talerzyki"
   },
   "galleryAlt": {
     "croissant": "Maślany croissant z espresso",
@@ -323,18 +323,18 @@
     "eyebrow": "Nasze miejsce",
     "title": "O nas",
     "tagline": "Z sercem",
-    "altCreators": "Założyciele Zaytoon",
-    "altFriends": "Goście w Zaytoon",
-    "altGrandma": "Tradycja w Zaytoon",
+    "altCreators": "Założyciele Talerzyki",
+    "altFriends": "Goście w Talerzyki",
+    "altGrandma": "Tradycja w Talerzyki",
     "photoDot": "Zdjęcie {{n}} z {{total}}"
   },
   "feature": {
     "storyTitle": "a place where flavors travel and stories live on",
-    "storyLead": "Zaytoon to miejsce, w którym smaki Lewantu spotykają się z poznańską gościnnością.",
+    "storyLead": "Talerzyki to miejsce, w którym smaki Lewantu spotykają się z poznańską gościnnością.",
     "storyCta": "Poznaj nas",
     "locationLabel": "Lokalizacja",
     "directionsCta": "Jak dojechać",
-    "interiorAlt": "Wnętrze Zaytoon"
+    "interiorAlt": "Wnętrze Talerzyki"
   },
   "testimonials": {
     "title": "Opinie",
@@ -360,7 +360,7 @@
     "title": "Lokalizacja",
     "line1": "Wawrzyniaka 20",
     "line2": "61-001 Poznań, Polska",
-    "mapIframeTitle": "Zaytoon w Mapach Google",
+    "mapIframeTitle": "Talerzyki w Mapach Google",
     "mapLink": "Otwórz miejsce w Mapach Google"
   },
   "contact": {
@@ -369,7 +369,7 @@
     "phone": "Telefon",
     "email": "E-mail",
     "social": "Social media",
-    "instagram": "Instagram · @zaytoonpoznan",
+    "instagram": "Instagram · @talerzyki_poz",
     "facebook": "Facebook",
     "hours": "Godziny",
     "dayMon": "Poniedziałek",
@@ -393,13 +393,13 @@
     "hoursHolidayNote": "W święta godziny mogą być inne."
   },
   "footer": {
-    "tagline": "Middle eastern tapas — Wawrzyniaka 20, Poznań.",
+    "tagline": "Smaki Bliskiego Wschodu — Wawrzyniaka 20, Poznań.",
     "contactHeading": "Kontakt",
     "hoursHeading": "Godziny",
     "hoursText": "Pon–Śr 9:00–20:30 · Czw–Sob 9:00–22:00 · Nd 10:00–21:00",
     "followHeading": "Obserwuj",
-    "instagram": "Instagram · @zaytoonpoznan",
-    "facebook": "Facebook · Zaytoon",
+    "instagram": "Instagram · @talerzyki_poz",
+    "facebook": "Facebook",
     "instagramShort": "Instagram",
     "facebookShort": "Facebook"
   }

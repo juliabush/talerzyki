@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate menu HTML and translation JSON for ZAYTOON."""
+"""Generate menu HTML and translation JSON for Talerzyki."""
 import json
 import re
 from pathlib import Path
@@ -326,7 +326,7 @@ SIDES = [
 ]
 
 META_PL = {
-    "eyebrow": "Tapas · Lewant · Bliski Wschód",
+    "eyebrow": "Lewant · Bliski Wschód",
     "title": "Menu",
     "lead": "Smaki Lewantu i Bliskiego Wschodu — dania inspirowane tradycją.",
     "catSmallPlates": "Małe talerze",
@@ -341,7 +341,7 @@ META_PL = {
 }
 
 META_EN = {
-    "eyebrow": "Tapas · Levant · Middle East",
+    "eyebrow": "Levant · Middle East",
     "title": "Menu",
     "lead": "Inspired by the flavors of the Levant & Middle East.",
     "catSmallPlates": "Small Plates",
